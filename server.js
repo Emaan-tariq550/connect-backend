@@ -76,7 +76,7 @@ app.use('*', (req, res) => {
 // Error handler
 app.use(errorHandler)
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 3000
 httpServer.listen(PORT, () => {
   console.log(`🚀 CONNECT Backend running on port ${PORT}`)
   console.log(`🌐 Client: ${process.env.CLIENT_URL}`)
